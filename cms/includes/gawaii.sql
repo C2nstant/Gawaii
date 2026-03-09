@@ -50,7 +50,6 @@ CREATE TABLE `article` (
 
 INSERT INTO `article` (`article_id`, `title`, `summary`, `content`, `created`, `category_id`, `member_id`, `image_id`, `published`) VALUES
 (1, 'PAiD Brochure', 'Brochure design for P2P Aid in Digital Currency', 'A comprehensive brochure design showcasing peer-to-peer aid solutions in the digital currency space which  highlights the innovative approach to financial empowerment through decentralized digital currency initiatives.', '2025-02-25 23:29:00', 1, 2, 1, 1),
-
 (2, 'The Sum Of All Things Book Cover', 'Book cover design for The Sum of All Things', 'An striking book cover design for The Sum of All Things that captures the essence of the literary work.', '2026-02-23 23:29:45', 1, 2, 2, 1),
 (3, 'Neon Soul Album Cover', 'Album cover design for Neol Sould', 'A vibrant album cover for Neon Soul featuring contemporary design aesthetics. The cover employs bold colors and modern graphic elements to create an impression that matches the musical genre and artistic vision.', '2026-02-23 23:31:02', 1, 1, 3, 1),
 (4, 'Efley Group Business Card', 'Business card design for Efley Company', 'Professional business card design for Efley Group that conveys corporate identity and brand values. The layout includes essential contact information presented in a clean, modern format.', '2026-02-23 23:31:55', 1, 2, 4, 1),
@@ -66,20 +65,20 @@ INSERT INTO `article` (`article_id`, `title`, `summary`, `content`, `created`, `
 (12, 'Eduwerks Website', 'Website for E-learning platform', 'A comprehensive e-learning platform offering interactive courses, resources, and educational content. Eduwerks provides students and professionals with flexible learning opportunities, course completion tracking, and certification upon successful completion.', '2026-02-23 23:40:18', 2, 1, 12, 1),
 
 
-(13, 'Manga Cover Gantz', 'Manga cover for Gantz series by Hiroya Oku', 'A striking manga cover design for the Gantz series by renowned manga artist Hiroya Oku. The artwork captures the series intense action and supernatural elements through unique, high-contrast, and hyper-detailed aesthetic.', '2026-02-23 23:42:12', 3, 2, 13, 1),
-(14, 'Manga Cover I Am A Hero', 'Manga cover for I Am A Hero series by Kengo Hanazawa', 'A compelling manga cover for I Am A Hero by Kengo Hanazawa showcasing the psychological thriller and survival themes. The design effectively conveys the transformation of the protagonist with a nod from the first volume cover.', '2026-02-23 23:46:22', 3, 3, 14, 1),
-(15, 'Manga Cover Berserk', 'Manga cover for Berserk series by Kentaro Miura', 'An intense and atmospheric manga cover for the legendary Berserk series by Kentaro Miura. The artwork captures the dark fantasy essence and epic scale that defines one of mangas most acclaimed series.', '2026-02-23 23:49:06', 3, 3, 15, 1),
-(16, 'Manga Cover Full Metal Alchemist', 'Manga cover for Full Metal Alchemist series by Hiromu Arakawa', 'An imaginative manga cover for Full Metal Alchemist by Hiromu Arakawa . Despite the visible injuries, the cover is brightly colored and lit, conveying a sense of relief, peace, and accomplishment rather than despair.', '2026-02-23 23:49:59', 3, 1, 16, 1),
-(17, 'Manga Cover Dorohedoro', 'Manga cover for Dorohedoro series by Q Hayashida', 'A unique and visually striking manga cover for Doroherdoro by Q Hayashida. The artwork showcases the series distinctive art style and surreal atmosphere with dirty, grimy, and chaotic aesthetic through highly detailed, hand-drawn art.', '2026-02-23 23:51:54', 3, 3, 17, 1),
-(18, 'Manga Cover Fire Punch', 'Manga cover for Fire Punch series by Tatsuki Fujimoto', 'A powerful manga cover for Fire Punch by Tatsuki Fujimoto capturing the series intense action and high-concept storytelling. The design uses dramatic visual elements to convey the supernatural and destructive themes of fire and agony.', '2026-02-23 23:52:22', 3, 3, 18, 1),
+(13, 'Gantz', 'Manga cover for Gantz series by Hiroya Oku', 'A striking manga cover design for the Gantz series by renowned manga artist Hiroya Oku. The artwork captures the series intense action and supernatural elements through unique, high-contrast, and hyper-detailed aesthetic.', '2026-02-23 23:42:12', 3, 2, 13, 1),
+(14, 'I Am A Hero', 'Manga cover for I Am A Hero series by Kengo Hanazawa', 'A compelling manga cover for I Am A Hero by Kengo Hanazawa showcasing the psychological thriller and survival themes. The design effectively conveys the transformation of the protagonist with a nod from the first volume cover.', '2026-02-23 23:46:22', 3, 3, 14, 1),
+(15, 'Berserk', 'Manga cover for Berserk series by Kentaro Miura', 'An intense and atmospheric manga cover for the legendary Berserk series by Kentaro Miura. The artwork captures the dark fantasy essence and epic scale that defines one of mangas most acclaimed series.', '2026-02-23 23:49:06', 3, 3, 15, 1),
+(16, 'Full Metal Alchemist', 'Manga cover for Full Metal Alchemist series by Hiromu Arakawa', 'An imaginative manga cover for Full Metal Alchemist by Hiromu Arakawa . Despite the visible injuries, the cover is brightly colored and lit, conveying a sense of relief, peace, and accomplishment rather than despair.', '2026-02-23 23:49:59', 3, 1, 16, 1),
+(17, 'Dorohedoro', 'Manga cover for Dorohedoro series by Q Hayashida', 'A unique and visually striking manga cover for Doroherdoro by Q Hayashida. The artwork showcases the series distinctive art style and surreal atmosphere with dirty, grimy, and chaotic aesthetic through highly detailed, hand-drawn art.', '2026-02-23 23:51:54', 3, 3, 17, 1),
+(18, 'Fire Punch', 'Manga cover for Fire Punch series by Tatsuki Fujimoto', 'A powerful manga cover for Fire Punch by Tatsuki Fujimoto capturing the series intense action and high-concept storytelling. The design uses dramatic visual elements to convey the supernatural and destructive themes of fire and agony.', '2026-02-23 23:52:22', 3, 3, 18, 1),
 
 
-(19, 'Photograph Winston Churchill', 'Photograph of Winston Churchill by Yousuf Karsh', 'An iconic portrait photograph of Winston Churchill, the renowned British Prime Minister, captured by legendary photographer Yousuf Karsh. This powerful image exemplifies Karsh ability to capture the strength and determination of historical figures.', '2026-02-23 23:52:59', 4, 1, 19, 1),
-(20, 'Photograph Walt Disney', 'Photograph of Walt Disney by Yousuf Karsh', 'A distinguished portrait of Walt Disney, the visionary animator and entrepreneur, photographed by Yousuf Karsh. The image captures Disneys creative spirit and determination that revolutionized the entertainment industry.', '2026-02-23 23:54:02', 4, 1, 20, 1),
-(21, 'Photograph Robert Oppenheimer', 'Photograph of Robert Oppenheimer by Yousuf Karsh', 'A profound portrait of Robert Oppenheimer, the theoretical physicist and Manhattan Project director, by Yousuf Karsh. The photograph captures the contemplative nature of one of sciences most influential and complex figures.', '2026-02-23 23:55:09', 4, 1, 21, 1),
-(22, 'Photograph Nelson Mandela', 'Photograph of Nelson Mandela by Yousuf Karsh', 'An inspiring portrait of Nelson Mandela, South African anti-apartheid revolutionary and statesman, captured by acclaimed photographer Yousuf Karsh. The image reflects Mandelas dignified legacy and transformative impact on world history.', '2026-02-23 23:56:10', 4, 2, 22, 1),
-(23, 'Photograph Jascha Heifetz', 'Photograph of Jascha Heifetz by Yousuf Karsh', 'A refined portrait photograph of Jascha Heifetz, the legendary violinist known for his extraordinary technical mastery and artistry, by Yousuf Karsh. The image captures the intensity of one of classical musics greatest performers.', '2026-02-23 23:56:03', 4, 2, 23, 1),
-(24, 'Photograph Harland Sanders', 'Photograph of Harland Sanders by Yousuf Karsh', 'A memorable portrait of Harland Sanders, founder of Kentucky Fried Chicken and American entrepreneur, photographed by Yousuf Karsh. The photograph captures the determination and vision of the man behind one of the worlds most recognizable brands.', '2026-02-23 23:57:50', 4, 3, 24, 1);
+(19, 'Winston Churchill', 'Photograph of Winston Churchill by Yousuf Karsh', 'An iconic portrait photograph of Winston Churchill, the renowned British Prime Minister, captured by legendary photographer Yousuf Karsh. This powerful image exemplifies Karsh ability to capture the strength and determination of historical figures.', '2026-02-23 23:52:59', 4, 1, 19, 1),
+(20, 'Walt Disney', 'Photograph of Walt Disney by Yousuf Karsh', 'A distinguished portrait of Walt Disney, the visionary animator and entrepreneur, photographed by Yousuf Karsh. The image captures Disneys creative spirit and determination that revolutionized the entertainment industry.', '2026-02-23 23:54:02', 4, 1, 20, 1),
+(21, 'Robert Oppenheimer', 'Photograph of Robert Oppenheimer by Yousuf Karsh', 'A profound portrait of Robert Oppenheimer, the theoretical physicist and Manhattan Project director, by Yousuf Karsh. The photograph captures the contemplative nature of one of sciences most influential and complex figures.', '2026-02-23 23:55:09', 4, 1, 21, 1),
+(22, 'Nelson Mandela', 'Photograph of Nelson Mandela by Yousuf Karsh', 'An inspiring portrait of Nelson Mandela, South African anti-apartheid revolutionary and statesman, captured by acclaimed photographer Yousuf Karsh. The image reflects Mandelas dignified legacy and transformative impact on world history.', '2026-02-23 23:56:10', 4, 2, 22, 1),
+(23, 'Jascha Heifetz', 'Photograph of Jascha Heifetz by Yousuf Karsh', 'A refined portrait photograph of Jascha Heifetz, the legendary violinist known for his extraordinary technical mastery and artistry, by Yousuf Karsh. The image captures the intensity of one of classical musics greatest performers.', '2026-02-23 23:56:03', 4, 2, 23, 1),
+(24, 'Harland Sanders', 'Photograph of Harland Sanders by Yousuf Karsh', 'A memorable portrait of Harland Sanders, founder of Kentucky Fried Chicken and American entrepreneur, photographed by Yousuf Karsh. The photograph captures the determination and vision of the man behind one of the worlds most recognizable brands.', '2026-02-23 23:57:50', 4, 3, 24, 1);
 
 -- --------------------------------------------------------
 
@@ -183,7 +182,7 @@ INSERT INTO `member` (`member_id`, `forename`, `surname`, `email`, `password`, `
 -- Indexes for table `article`
 --
 ALTER TABLE `article`
-  ADD PRIMARY KEY (`article_id`);
+  ADD PRIMARY KEY (`article_id`),
   ADD UNIQUE KEY `title` (`title`),
   ADD KEY `category_id` (`category_id`),
   ADD KEY `author_id` (`member_id`),
@@ -193,7 +192,7 @@ ALTER TABLE `article`
 -- Indexes for table `category`
 --
 ALTER TABLE `category`
-  ADD PRIMARY KEY (`category_id`);
+  ADD PRIMARY KEY (`category_id`),
   ADD UNIQUE KEY `name` (`name`);
 
 --
