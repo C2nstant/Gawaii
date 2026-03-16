@@ -57,12 +57,12 @@ INSERT INTO `article` (`article_id`, `title`, `summary`, `content`, `created`, `
 (6, 'Venice Travel Guide', 'Travel guide design for Venice Grand Tourist', 'An informative travel guide design for Venice featuring beautiful visual elements and practical tourism information. The layout guides visitors through the citys iconic locations, cultural landmarks, and travel essentials in an accessible format.', '2026-02-23 23:32:38', 1, 1, 6, 1),
 
 
-(7, 'NoticeSound Website', 'Website for system tracks managing', 'A comprehensive web platform for managing and tracking system notifications and alerts. NoticeSound provides an intuitive interface for organizing, categorizing, and monitoring various system-generated sounds.', '2026-02-23 23:35:21', 2, 1, 7, 1),
-(8, 'Attendy App', 'App for keeping track of attendance', 'A user-friendly mobile and web application designed to simplify attendance tracking. Attendy streamlines the process of recording presence, generating reports, and analyzing attendance patterns for schools, businesses, and organizations.', '2026-02-23 23:35:59', 2, 2, 8, 1),
-(9, 'FlavorFit Website and App', 'Website and app design for personalized fitness planning', 'A comprehensive digital platform combining web and mobile applications for personalized fitness and nutrition planning. FlavorFit uses advanced algorithms to create customized workout routines and meal plans based on individual health goals and dietary preferences.', '2026-02-23 23:37:21', 2, 3, 9, 1),
-(10, 'Advlife Booking Website', 'Website for real estate booking', 'A sophisticated real estate booking platform providing seamless property search, viewing scheduling, and transaction management. Advlife connects buyers, sellers, and agents in a secure digital environment optimized for residential and commercial properties.', '2026-02-23 23:38:05', 2, 2, 10, 1),
-(11, 'Comfort Shift Website', 'Website for moving and relocation', 'A dedicated platform specializing in moving and relocation services coordination. Comfort Shift connects customers with reliable moving companies, handles booking, tracking, and customer support to ensure smooth and stress-free relocation experiences.', '2026-02-23 23:39:41', 2, 1, 11, 1),
-(12, 'Eduwerks Website', 'Website for E-learning platform', 'A comprehensive e-learning platform offering interactive courses, resources, and educational content. Eduwerks provides students and professionals with flexible learning opportunities, course completion tracking, and certification upon successful completion.', '2026-02-23 23:40:18', 2, 1, 12, 1),
+(7, 'Disco Elysium', 'Game cover for Disco Elysium by ZA/UM', 'A striking game cover for Disco Elysium. The artwork captures the game''s noir detective atmosphere and political intrigue through a painterly, expressionist aesthetic with muted, melancholic tones.', '2026-02-23 23:35:21', 2, 1, 7, 1),
+(8, 'Hollow Knight', 'Game cover for Hollow Knight by Team Cherry', 'A compelling game cover for Hollow Knight by Team Cherry showcasing the atmospheric metroidvania and exploration themes. The design effectively conveys the mysterious underground kingdom with dark, hand-drawn visuals.', '2026-02-23 23:35:59', 2, 2, 8, 1),
+(9, 'Far Cry 3', 'Game cover for Far Cry 3 by Ubisoft', 'An intense and atmospheric game cover for Far Cry 3 by Ubisoft. The artwork captures the tropical open-world chaos and psychological descent that defines one of the series'' most acclaimed entries.', '2026-02-23 23:37:21', 2, 3, 9, 1),
+(10, 'Blasphemous', 'Game cover for Blasphemous by The Game Kitchen', 'A dark and striking game cover for Blasphemous by The Game Kitchen. Despite the heavy religious imagery and brutality, the cover is richly detailed and atmospheric, conveying a sense of solemn devotion and penitence.', '2026-02-23 23:38:05', 2, 2, 10, 1),
+(11, 'Return of the Obra Dinn', 'Game cover for Return of the Obra Dinn by Lucas Pope', 'A unique and visually striking game cover for Return of the Obra Dinn by Lucas Pope. The artwork showcases the game''s distinctive 1-bit monochrome art style and mystery atmosphere through highly detailed, stark black-and-white illustration.', '2026-02-23 23:39:41', 2, 1, 11, 1),
+(12, 'ENA: Dream BBQ', 'Game cover for ENA: Dream BBQ by Joel Guerra', 'A surreal and visually eclectic game cover for ENA: Dream BBQ by Joel Guerra capturing the series'' avant-garde storytelling and dreamlike visual identity. The design uses vibrant, dissonant colors and abstract imagery to convey the bizarre and emotional world of ENA.', '2026-02-23 23:40:18', 2, 1, 12, 1),
 
 
 (13, 'Gantz', 'Manga cover for Gantz series by Hiroya Oku', 'A striking manga cover design for the Gantz series by renowned manga artist Hiroya Oku. The artwork captures the series intense action and supernatural elements through unique, high-contrast, and hyper-detailed aesthetic.', '2026-02-23 23:42:12', 3, 2, 13, 1),
@@ -99,8 +99,8 @@ CREATE TABLE `category` (
 
 INSERT INTO `category` (`category_id`, `name`, `description`, `navigation`) VALUES
 (1, 'Print', 'Inspiring graphic design', 1),
-(2, 'Digital', 'Powerful pixels', 1),
-(3, 'Illustration', 'Digital manga covers', 1),
+(2, 'Game Covers', 'Enchanting game covers', 1),
+(3, 'Manga Covers', 'Digital manga covers', 1),
 (4, 'Photography', 'Capturing the moment', 1);
 
 -- --------------------------------------------------------
@@ -127,12 +127,12 @@ INSERT INTO `image` (`image_id`, `file`, `alt`) VALUES
 (5, 'Childrens Drawing Festival Poster.png', 'Poster design for Childrens Drawing Festival'),
 (6, 'Venice Travel Guide.png', 'Travel guide design for Venice Grand Tourist'),
 
-(7, 'NoticeSound Website.png', 'Website for system tracks managing'),
-(8, 'Attendy App.png', 'App for keeping track of attendance'),
-(9, 'FlavorFit Website and App.png', 'Website and app design for personalized fitness planning'),
-(10, 'AdvLife Booking Website.png', 'Website for real estate booking'),
-(11, 'Comfort Shift Website.png', 'Website for moving and relocation'),
-(12, 'Eduwerks Website.png', 'Website for E-learning platform'),
+(7, 'Game Cover Disco Elysium.png', 'Game cover of Disco Elysium by ZA/UM'),
+(8, 'Game Cover Hollow Knight.png', 'Game cover of Hollow Knight by Team Cherry'),
+(9, 'Game Cover Far Cry 3.png', 'Game cover of Far Cry 3 by Ubisoft'),
+(10, 'Game Cover Blasphemous.png', 'Game cover of Blasphemous by The Game Kitchen'),
+(11, 'Game Cover Return of the Obra Dinn.png', 'Game cover of Return of the Obra Dinn by Lucas Pope'),
+(12, 'Game Cover Dream BBQ.png', 'Game cover of ENA Dream BBQ by Joel Guerra'),
 
 (13, 'Manga Cover Gantz.png', 'Manga cover for Gantz series by Hiroya Oku'),
 (14, 'Manga Cover I Am A Hero.png', 'Manga cover for I Am A Hero series by Kengo Hanazawa'),
