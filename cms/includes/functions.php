@@ -1,4 +1,10 @@
 <?php
+
+error_reporting(E_ALL);                    // Report all errors;
+ini_set('display_errors', 1);              // Display errors on page
+ini_set('log_errors', 1);                  // Log errors to a file
+ini_set('error_log', dirname(__DIR__) . '/php-error.log'); // Set error log file
+
 // DATABASE FUNCTION
 function pdo(PDO $pdo, string $sql, array $arguments = null)
 {
@@ -52,4 +58,30 @@ function handle_shutdown()
         $e = new ErrorException($error['message'], 0, $error['type'], $error['file'], $error['line']);
         handle_exception($e);             // Call exception handler
     }
+}
+
+// REDIRECT FUNCTION
+function redirect(string $url, array $params = []): void
+{
+    if (!empty($params)) {
+        $url .= (strpos($url, '?') === false ? '?' : '&') . http_build_query($params);
+    }
+    header('Location: ' . $url);
+    exit;
+}
+
+// CREATE FILENAME FUNCTION
+function create_filename(string $filename, string $upload_path): string
+{
+    $basename = pathinfo($filename, PATHINFO_FILENAME);
+    $extension = pathinfo($filename, PATHINFO_EXTENSION);
+    $basename = preg_replace('/[^A-z0-9]/', '-', $basename);
+    $basename = trim($basename, '-');
+    $new_filename = $basename . '.' . $extension;
+    $counter = 1;
+    while (file_exists($upload_path . $new_filename)) {
+        $new_filename = $basename . "-{$counter}." . $extension;
+        $counter++;
+    }
+    return $new_filename;
 }

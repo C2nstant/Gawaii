@@ -46,16 +46,16 @@ $description = $title . ' on Gawaii';                   // Meta description
     <section class="grid">
       <?php foreach ($articles as $article) { ?>
         <article class="summary">
-          <a href="article.php?id=<?= $article['article_id'] ?>">
+          <a href="article.php?article_id=<?= $article['article_id'] ?>">
             <img src="img/<?= html_escape($article['image_file'] ?? 'blank.png') ?>"
                  alt="<?= html_escape($article['image_alt']) ?>">
             <h2><?= html_escape($article['title']) ?></h2>
             <p><?= html_escape($article['summary']) ?></p>
           </a>
           <p class="credit">
-            Posted in <a href="category.php?id=<?= $article['category_id'] ?>">
+            Posted in <a href="category.php?category_id=<?= $article['category_id'] ?>">
               <?= html_escape($article['category']) ?></a>
-            by <a href="member.php?id=<?= $article['member_id'] ?>">
+            by <a href="member.php?member_id=<?= $article['member_id'] ?>">
               <?= html_escape($article['author']) ?></a>
           </p>
         </article>

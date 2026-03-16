@@ -1,0 +1,22 @@
+[16-Mar-2026 08:34:22 Europe/Berlin] PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\Gawaii\cms\includes\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\Gawaii\cms\includes\functions.php(15): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Gawaii\cms\admin\article.php(146): pdo(Object(PDO), 'UPDATE article\n...', Array)
+#2 {main}
+[16-Mar-2026 08:36:32 Europe/Berlin] ErrorException: Undefined array key "id" in C:\xampp\htdocs\Gawaii\cms\admin\article.php:148
+Stack trace:
+#0 C:\xampp\htdocs\Gawaii\cms\admin\article.php(148): handle_error(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 {main}
+[16-Mar-2026 08:36:42 Europe/Berlin] ErrorException: Undefined array key "id" in C:\xampp\htdocs\Gawaii\cms\admin\article.php:148
+Stack trace:
+#0 C:\xampp\htdocs\Gawaii\cms\admin\article.php(148): handle_error(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 148)
+#1 {main}
+[16-Mar-2026 08:43:56 Europe/Berlin] Error: Call to undefined function create_filename() in C:\xampp\htdocs\Gawaii\cms\admin\article.php:81
+Stack trace:
+#0 {main}
+[16-Mar-2026 08:45:50 Europe/Berlin] Error: Class "Imagick" not found in C:\xampp\htdocs\Gawaii\cms\admin\article.php:117
+Stack trace:
+#0 {main}
+[16-Mar-2026 08:49:03 Europe/Berlin] Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\Gawaii\cms\admin\article.php:124
+Stack trace:
+#0 {main}
