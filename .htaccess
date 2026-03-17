@@ -9,5 +9,5 @@ php_flag   display_errors      On
 php_flag   log_errors          On
 
 # The paths for the following entries must match the paths on your computer
-ErrorDocument 404 /phpbook/section_c/c12/cms/page-not-found.php
-ErrorDocument 500 /phpbook/section_c/c12/cms/error.php
+ErrorDocument 404 /WD202/Gawaii/cms/notfound.php
+ErrorDocument 500 /WD202/Gawaii/cms/error.php

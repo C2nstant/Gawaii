@@ -70,7 +70,7 @@ $description = $title . ' on Gawaii';              // Meta description content
     <section class="grid">
       <?php foreach ($articles as $article) { ?>
       <article class="summary">
-        <a href="article.php?article_id=<?= $article['article_id'] ?>">
+        <a href="article.php?id=<?= $article['article_id'] ?>">
           <img src="img/<?= html_escape($article['image_file'] ?? 'blank.png') ?>"
                alt="<?= html_escape($article['image_alt']) ?>">
           <h2><?= html_escape($article['title']) ?></h2>

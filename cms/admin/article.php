@@ -4,7 +4,7 @@ include '../includes/database-connection.php';
 include '../includes/functions.php';
 include '../includes/validate.php';
 
-$uploads = dirname(__DIR__, 1) . DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR; // Image upload folder
+$uploads = dirname(__DIR__, 1) . DIRECTORY_SEPARATOR . 'img' . DIRECTORY_SEPARATOR; // Image upload folder
 $file_types      = ['image/jpeg', 'image/png', 'image/gif',];
 $file_extensions = ['jpg', 'jpeg', 'png', 'gif',];
 $max_size        = '5242880';   
@@ -263,7 +263,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {                 // If form submitted
             <img src="../img/<?= html_escape($article['image_file']) ?>"
                  alt="<?= html_escape($article['image_alt']) ?>">
             <p class="alt"><strong>Alt text:</strong> <?= html_escape($article['image_alt']) ?></p>
-            <a href="alt-text-edit.php?id=<?= $article['article_id'] ?>" class="btn btn-secondary">Edit alt text</a>
+            <a href="alt-text-edit.php?id=<?= $article['article_id'] ?? $id ?>" class="btn btn-secondary">Edit alt text</a>
             <a href="image-delete.php?id=<?= $id ?>" class="btn btn-secondary">Delete image</a><br><br>
           <?php } ?>
         </section>

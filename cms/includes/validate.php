@@ -30,3 +30,5 @@ function is_category_id($category_id, array $category_list): bool
     }
     return false;
 }
+
+?>

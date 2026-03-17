@@ -38,7 +38,7 @@ $description = $title . ' on Gawaii';                   // Meta description
 <?php include 'includes/header.php'; ?>
   <main class="container" id="content">
     <section class="header">
-      <h1><?= html_escape($member['forename']) ?> . <?= html_escape($member['surname']) ?></h1>
+      <h1><?= html_escape($member['forename']) ?> <?= html_escape($member['surname']) ?></h1>
       <p class="member"><b>Member since:</b> <?= format_date($member['joined']) ?></p>
       <img src="img/<?= html_escape($member['picture'] ?? 'member.png') ?>"
            alt="<?= html_escape($member['forename']) ?>" class="profile"><br>
@@ -46,7 +46,7 @@ $description = $title . ' on Gawaii';                   // Meta description
     <section class="grid">
       <?php foreach ($articles as $article) { ?>
         <article class="summary">
-          <a href="article.php?article_id=<?= $article['article_id'] ?>">
+          <a href="article.php?id=<?= $article['article_id'] ?>">
             <img src="img/<?= html_escape($article['image_file'] ?? 'blank.png') ?>"
                  alt="<?= html_escape($article['image_alt']) ?>">
             <h2><?= html_escape($article['title']) ?></h2>

@@ -20,3 +20,46 @@ Stack trace:
 [16-Mar-2026 08:49:03 Europe/Berlin] Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\Gawaii\cms\admin\article.php:124
 Stack trace:
 #0 {main}
+[17-Mar-2026 19:26:44 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:26:45 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:26:45 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:26:46 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:26:46 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:26:55 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:26:55 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:27:02 Europe/Berlin] ValueError: PDOStatement::bindValue(): Argument #1 ($param) must be greater than or equal to 1 in C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\WD202\Gawaii\cms\includes\functions.php(17): PDOStatement->bindValue(0, 2, 1)
+#1 C:\xampp\htdocs\WD202\Gawaii\cms\category.php(13): pdo(Object(PDO), 'SELECT category...', Array)
+#2 {main}
+[17-Mar-2026 19:44:48 Europe/Berlin] Error: Call to undefined function imagecreatefrompng() in C:\xampp\htdocs\WD202\Gawaii\cms\admin\article.php:124
+Stack trace:
+#0 {main}

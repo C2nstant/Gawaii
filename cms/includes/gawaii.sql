@@ -57,12 +57,12 @@ INSERT INTO `article` (`article_id`, `title`, `summary`, `content`, `created`, `
 (6, 'Venice Travel Guide', 'Travel guide design for Venice Grand Tourist', 'An informative travel guide design for Venice featuring beautiful visual elements and practical tourism information. The layout guides visitors through the citys iconic locations, cultural landmarks, and travel essentials in an accessible format.', '2026-02-23 23:32:38', 1, 1, 6, 1),
 
 
-(7, 'Disco Elysium', 'Game cover for Disco Elysium by ZA/UM', 'A striking game cover for Disco Elysium. The artwork captures the game''s noir detective atmosphere and political intrigue through a painterly, expressionist aesthetic with muted, melancholic tones.', '2026-02-23 23:35:21', 2, 1, 7, 1),
-(8, 'Hollow Knight', 'Game cover for Hollow Knight by Team Cherry', 'A compelling game cover for Hollow Knight by Team Cherry showcasing the atmospheric metroidvania and exploration themes. The design effectively conveys the mysterious underground kingdom with dark, hand-drawn visuals.', '2026-02-23 23:35:59', 2, 2, 8, 1),
-(9, 'Far Cry 3', 'Game cover for Far Cry 3 by Ubisoft', 'An intense and atmospheric game cover for Far Cry 3 by Ubisoft. The artwork captures the tropical open-world chaos and psychological descent that defines one of the series'' most acclaimed entries.', '2026-02-23 23:37:21', 2, 3, 9, 1),
-(10, 'Blasphemous', 'Game cover for Blasphemous by The Game Kitchen', 'A dark and striking game cover for Blasphemous by The Game Kitchen. Despite the heavy religious imagery and brutality, the cover is richly detailed and atmospheric, conveying a sense of solemn devotion and penitence.', '2026-02-23 23:38:05', 2, 2, 10, 1),
-(11, 'Return of the Obra Dinn', 'Game cover for Return of the Obra Dinn by Lucas Pope', 'A unique and visually striking game cover for Return of the Obra Dinn by Lucas Pope. The artwork showcases the game''s distinctive 1-bit monochrome art style and mystery atmosphere through highly detailed, stark black-and-white illustration.', '2026-02-23 23:39:41', 2, 1, 11, 1),
-(12, 'ENA: Dream BBQ', 'Game cover for ENA: Dream BBQ by Joel Guerra', 'A surreal and visually eclectic game cover for ENA: Dream BBQ by Joel Guerra capturing the series'' avant-garde storytelling and dreamlike visual identity. The design uses vibrant, dissonant colors and abstract imagery to convey the bizarre and emotional world of ENA.', '2026-02-23 23:40:18', 2, 1, 12, 1),
+(7, 'Blasphemous', 'Game cover for Blasphemous by The Game Kitchen', 'A dark and striking game cover for Blasphemous by The Game Kitchen. Despite the heavy religious imagery and brutality, the cover is richly detailed and atmospheric, conveying a sense of solemn devotion and penitence.', '2026-02-23 23:38:05', 2, 2, 7, 1),
+(8, 'Return of the Obra Dinn', 'Game cover for Return of the Obra Dinn by Lucas Pope', 'A unique and visually striking game cover for Return of the Obra Dinn by Lucas Pope. The artwork showcases the game''s distinctive 1-bit monochrome art style and mystery atmosphere through highly detailed, stark black-and-white illustration.', '2026-02-23 23:39:41', 2, 1, 8, 1),
+(9, 'ENA: Dream BBQ', 'Game cover for ENA: Dream BBQ by Joel Guerra', 'A surreal and visually eclectic game cover for ENA: Dream BBQ by Joel Guerra capturing the series'' avant-garde storytelling and dreamlike visual identity. The design uses vibrant, dissonant colors and abstract imagery to convey the bizarre and emotional world of ENA.', '2026-02-23 23:40:18', 2, 1, 9, 1),
+(10, 'Disco Elysium', 'Game cover for Disco Elysium by ZA/UM', 'A striking game cover for Disco Elysium. The artwork captures the game''s noir detective atmosphere and political intrigue through a painterly, expressionist aesthetic with muted, melancholic tones.', '2026-02-23 23:35:21', 2, 1, 10, 1),
+(11, 'Hollow Knight', 'Game cover for Hollow Knight by Team Cherry', 'A compelling game cover for Hollow Knight by Team Cherry showcasing the atmospheric metroidvania and exploration themes. The design effectively conveys the mysterious underground kingdom with dark, hand-drawn visuals.', '2026-02-23 23:35:59', 2, 2, 11, 1),
+(12, 'Far Cry 3', 'Game cover for Far Cry 3 by Ubisoft', 'An intense and atmospheric game cover for Far Cry 3 by Ubisoft. The artwork captures the tropical open-world chaos and psychological descent that defines one of the series'' most acclaimed entries.', '2026-02-23 23:37:21', 2, 3, 12, 1),
 
 
 (13, 'Gantz', 'Manga cover for Gantz series by Hiroya Oku', 'A striking manga cover design for the Gantz series by renowned manga artist Hiroya Oku. The artwork captures the series intense action and supernatural elements through unique, high-contrast, and hyper-detailed aesthetic.', '2026-02-23 23:42:12', 3, 2, 13, 1),
@@ -127,12 +127,12 @@ INSERT INTO `image` (`image_id`, `file`, `alt`) VALUES
 (5, 'Childrens Drawing Festival Poster.png', 'Poster design for Childrens Drawing Festival'),
 (6, 'Venice Travel Guide.png', 'Travel guide design for Venice Grand Tourist'),
 
-(7, 'Game Cover Disco Elysium.png', 'Game cover of Disco Elysium by ZA/UM'),
-(8, 'Game Cover Hollow Knight.png', 'Game cover of Hollow Knight by Team Cherry'),
-(9, 'Game Cover Far Cry 3.png', 'Game cover of Far Cry 3 by Ubisoft'),
-(10, 'Game Cover Blasphemous.png', 'Game cover of Blasphemous by The Game Kitchen'),
-(11, 'Game Cover Return of the Obra Dinn.png', 'Game cover of Return of the Obra Dinn by Lucas Pope'),
-(12, 'Game Cover Dream BBQ.png', 'Game cover of ENA Dream BBQ by Joel Guerra'),
+(7, 'Game Cover Blasphemous.png', 'Game cover of Blasphemous by The Game Kitchen'),
+(8, 'Game Cover Return of the Obra Dinn.png', 'Game cover of Return of the Obra Dinn by Lucas Pope'),
+(9, 'Game Cover Dream BBQ.png', 'Game cover of ENA Dream BBQ by Joel Guerra'),
+(10, 'Game Cover Disco Elysium.png', 'Game cover of Disco Elysium by ZA/UM'),
+(11, 'Game Cover Hollow Knight.png', 'Game cover of Hollow Knight by Team Cherry'),
+(12, 'Game Cover Far Cry 3.png', 'Game cover of Far Cry 3 by Ubisoft'),
 
 (13, 'Manga Cover Gantz.png', 'Manga cover for Gantz series by Hiroya Oku'),
 (14, 'Manga Cover I Am A Hero.png', 'Manga cover for I Am A Hero series by Kengo Hanazawa'),
